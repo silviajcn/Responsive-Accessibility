@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Mi Portafolio</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header id="header">
+      <img src="images/silvi.jpeg" alt="Foto Silvia" class="header-img" />
+      <h1 class="header">Silvi JCN</h1>
+      <h2 class="subtitle">Front End Developer</h2>
+      <nav>
+        <ul class="navigation">
+          <li class="nav-item">
+            <a href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects">My projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="about">
+        <h2 class="header">About Me</h2>
+        <p class="intro">Hi! My name is SilviJCN. I'm a Front-End developer located in Colombia. I love to create beautiful websites with great user experience. I have planning skills, organization of goals, as well as attention to detail in everything I do, because I believe that everything is art when you pay attention to it. Besides programming, I love to read and do Workouts. You can connect with me via social media.</p>
+        <ul class="social-media">
+          <li>
+            <a href="https://twitter.com/lectoramigrante" target="_blank"
+              ><img src="images/twitter.png" alt="Twitter icon"
+            /> <p class="social-link-text">Twitter</p></a>
+          </li>
+          <li>
+            <a href="https://github.com/silviajcn" target="_blank"
+              ><img src="images/github-logo.png" alt="GitHub icon "
+            /> <p class="social-link-text">GitHub</p></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/silviajcn/" target="_blank"
+              ><img src="images/linkedin.png" alt="Linkedin icon"
+            /> <p class="social-link-text">LinkedIn</p></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2 class="header">My projects</h2>
+        <div class="carousel">
+          <button class="arrow arrow-left" aria-label="backward button"></button>
+          <div class="window">
+            <ul class="project-container">
+              <li class="project1-container">
+                <button class="project1 project"><img src="images/project1.png" alt="Project 1" class="project-img" id="img-modal" /></button>
+              </li>
+              <li class="project2-container">
+                <button class="project2 project"><img src="images/project2.png" alt="Project 2" class="project-img" id="img-modal" /></button>
+              </li>
+              <li class="project3-container">
+                <button class="project3 project"><img src="images/project3.png" alt="Project 3" class="project-img" id="img-modal"/></button>
+              </li>
+              <li class="project4-container" aria-hidden="true">
+                <button class="project4 project" tabindex="-1"><img src="images/project4.png" alt="Project 4" class="project-img" id="img-modal" /></button>
+              </li>
+              <li class="project5-container" aria-hidden="true">
+                <button class="project5 project" tabindex="-1"><img src="images/project5.png" alt="Project 5" class="project-img" id="img-modal" /></button>
+              </li>
+            </ul>
+          </div>
+          <button class="arrow arrow-right" aria-label="forward button"></button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="contact-section" id="contact">
+      <h2 class="header">Contact</h2>
+      <p class="intro form-intro">If you are interested in contacting me, you can do it through this form.</p>
+      <form class="form-container">
+        <label class="form-label" for="name">Name</label>
+        <input type="text" id="name" aria-label="name"/>
+        <span id="name-error" aria-live="assertive"></span>
+        <br />
+
+        <label class="form-label" for="email">Email</label>
+        <input type="text" id="email" aria-label="email" />
+        <span id="email-error"></span>
+        <br />
+
+        <div  class="message-input">
+          <label class="form-label" for="message">Menssage</label>
+          <input type="text" id="message"/> <br />
+        </div>
+
+        <button class="send-button">Send</button>
+      </form>
+
+      <a href="#header" class="go-top">Go to top</a>
+    </footer>
+
+    <div class="notification" aria-live="assertive"></div>
+
+    <div class="modal-container">
+      <div class="modal">
+        <h2 class="header" id="modal-header" tabindex="0">Some of my projects</h2>
+        <img class="modal-project-image" src="/images/project1.png" id="img-modal-capture" alt="Proyecto de Ejemplo" />
+        <button class="modal-button">Cerrar</button>
+      </div>
+    </div>
+
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>

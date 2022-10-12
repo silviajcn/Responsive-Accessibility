@@ -1,0 +1,44 @@
+header {
+    padding: 30px 60px;
+}
+
+header .header--img-logo {
+    width: 120px;
+}
+
+.header--title-container h1 {
+    font-size: 2rem;
+}
+
+.services--section-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.services--container-text {
+    min-width: 280px;
+    max-width: 360px;
+    max-height: 300px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.services--container-cards {
+    min-width: 480px;
+    max-width: 520px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.footer--container-parts {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+}

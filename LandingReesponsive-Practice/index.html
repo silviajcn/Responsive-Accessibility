@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://res.cloudinary.com/silviajcn/image/upload/v1665285991/PRACTICAS/Responsive/Logo_emooxs.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONT FAMILY -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;800&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap" rel="stylesheet">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1300px)">
+
+    <title>Agency Creative</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/Logo-Agency.png" alt="Logo Agency Creative" class="header--img-logo"/>
+        <div id="nav-container">
+        <nav id="nav-menu" class="nav-menu">
+            <ul>
+                <li><a href="#home" class="nav-menu--item">Home</a></li>
+                <li><a href="#about" class="nav-menu--item">About</a></li>
+                <li><a href="#services" class="nav-menu--item">Our Services</a></li>
+                <li><a href="#portfolio" class="nav-menu--item">Our Portfolio</a></li>
+                <li><a href="#testimonial" class="nav-menu--item">Testimonial</a></li>
+                <li><a href="#collaboration" class="nav-menu--item">Collaboration</a></li>
+            </ul>
+        </nav>
+    </div>
+        <!-- <button></button> -->
+        <button id="menu-toggle" class="btn--logo-menu menu-toggle" onclick="changeState()" aria-label="Open menu"></button>
+    </header>
+    <main>
+        <section class="header--section" id="home">
+            <div class="header--title-container">
+                <h1>Make your dream <br /> business goal come true</h1>
+                <p>When you need us for improve your business, then come with us to help your business have reach it, you just sit and feel that goal</p>
+                <button>Start Project</button>
+            </div>
+
+            <div class="header--container-img">
+                <div class="header--background-img">
+                    <div class="about--img-info"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about--section-container" id="about">
+
+            <div class="about--container-title">
+                <h2>About Us</h2>
+                <h3>Our Teammate</h3>  
+            </div>
+
+            <div class="about--container-text-img">
+                <article class="about--container-text">
+                    <p>We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business.</p>
+                    <p>We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business</p>
+
+                    <div class="about--container-btns">
+                        <button>About Us</button>
+                        <button><span class="about--btn-icon"></span> About Us</button>
+                    </div>
+                </article>
+
+                <div class="about--container-img">
+                    <div class="about--background-img"></div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="services--section-container" id="services">
+            <article class="services--container-text">
+                <h2>Our Services</h2>
+                <h3>Perfect and Fast Movement</h3>  
+                <p>We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business</p>
+
+                <a href="#">Read more <span class="services--btn-icon"></span></a>
+            </article>
+            
+            <section class="services--container-cards">
+                <div class="services--card-container">
+                    <div class="services--card-icon services--card-icon1">
+                        <img src="./assets/monitor.png" alt="Monitor icon" />
+                    </div>
+                    <h4>Social Media<br/>Management</h4>
+                </div>
+                <div class="services--card-container">
+                    <div class="services--card-icon services--card-icon2">
+                        <img src="./assets/Vector.png" alt="Vector icon" />
+                    </div>
+                    <h4>Search Engine<br/>Opimization</h4>
+                </div>
+                <div class="services--card-container">
+                    <div class="services--card-icon services--card-icon3">
+                        <img src="./assets/pen-tool.png" alt="Pen icon" />
+                    </div>
+                    <h4>Design</h4>
+                </div>
+                <div class="services--card-container">
+                    <div class="services--card-icon services--card-icon4">
+                        <img src="./assets/tv.png" alt="Tv icon" />
+                    </div>
+                    <h4>Ads</h4>
+                </div>
+            </section>
+        </section>
+
+        <section class="portfolio--section-container" id="portfolio">
+            <article class="portfolio--container-text">
+                <h2>Our Portfolio</h2>
+                <h3>What do we do</h3>  
+                <p>All projects that we have already done , proven can help to use more comfortable, then can used by client from our business.</p>
+            </article>
+
+            <section class="portfolio--container-cards">
+                <div class="portfolio--card-container portfolio--img1"></div>
+                <div class="portfolio--card-container portfolio--img2"></div>
+                <div class="portfolio--card-container portfolio--img3"></div>
+            </section>
+
+            <button>See All Portfolio</button>
+        </section>
+
+        <section class="testimonial--section-container" id="testimonial">
+            <article class="portfolio--container-text">
+                <h2>Testimonial</h2>
+                <h3>People Talk about us</h3>  
+            </article>
+
+            <section class="testimonial--container-cards">
+                <div class="testimonial--card-container testimonial--card1">
+                    <div class="testimonial--container-user">
+                        <img src="./assets/User1.png" alt="user Louis" />
+                        <div class="testimonial--container-text-user">
+                            <h4>Luois Pyan</h4>
+                            <p>Creative Manager</p>
+                        </div>
+                    </div>
+
+                    <blockquote>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit”</blockquote>
+                </div>
+                <div class="testimonial--card-container">
+                    <div class="testimonial--container-user">
+                        <img src="./assets/User2.png" alt="user Carla" />
+                        <div class="testimonial--container-text-user">
+                            <h4>Carla Huam</h4>
+                            <p>Content Creator</p>
+                        </div>
+                    </div>
+
+                    <blockquote>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit”</blockquote>
+                </div>
+                <div class="testimonial--card-container testimonial--card2">
+                    <div class="testimonial--container-user">
+                        <img src="./assets/User3.png" alt="user Mike" />
+                        <div class="testimonial--container-text-user">
+                            <h4>Mike Denisson</h4>
+                            <p>Content Creator</p>
+                        </div>
+                    </div>
+
+                    <blockquote>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit”</blockquote>
+                </div>
+            </section>
+        </section>
+
+        <section class="collaboration--section-container" id="collaboration">
+            <div class="collaboration--imgs-container">
+                <img src="./assets/Image-7.png" alt="collaboration image example group" class="collaboration--img-2" />
+            </div>
+
+            <div>
+                <h3>Interesting Collaboration With Us?</h3>
+                <p>Help you to reach your business goal</p>
+
+                <button>Get Started</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer--container-parts">
+            <div class="footer--container-logo">
+                <img src="./assets/logo-footer.png" alt="Logo Agency" />
+            </div>
+
+            <div class="footer--paragraph">
+                <p><b>Terms & policies</b></p>
+
+                <ul>
+                    <li>Terms of Service</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+
+            <div class="footer--paragraph">
+                <p><b>Company</b></p>
+
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+
+            <div class="footer--paragraph">
+                <p><b>Contact</b></p>
+
+                <ul>
+                    <li>(+62) 893912392190</li>
+                    <li>agecnycr@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="footer--paragraph">
+                <p><b>Location</b></p>
+
+                <p>PT Osiris Real Estate Internasional</p>
+                <p>Jl. KH. Wahid Hasyim Kel No.10D</p>
+                <p>Jakarta, Indonesia</p>
+                <p>team@OsirisRealEstate.com</p>
+            </div>
+        </div>
+
+        <div class="footer--section-2">
+            <div class="footer--container-icons">
+                <a href="https://facebook.com" target="_blank" class="footer--icon-1">
+                    <img src="./assets/logo-facebook.png" alt="Link to facebook" class="footer--icon-1"/>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="footer--icon-2">
+                    <img src="./assets/logo-instagram.png" alt="Link to instagram" class="footer--icon-1"/>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="footer--icon-3">
+                    <img src="./assets/logo-linkedin.png" alt="Link to linkedin" class="footer--icon-1"/>
+                </a>
+                <a href="https://gmail.com" target="_blank" class="footer--icon-4">
+                    <img src="./assets/logo-email.png" alt="Icon email link" class="footer--icon-1"/>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="footer--icon-5">
+                    <img src="./assets/logo-twitter.png" alt="Link to twitter" class="footer--icon-1"/>
+                </a>
+            </div>
+            <p class="footer--copyright-text">Copyright @ 2022 Agency Creative. All Right Reserved</p>
+        </div>
+    </footer>
+    
+    <!--Javascript-->
+    <script src="./js/index.js"></script>
+</body>
+</html>

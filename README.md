@@ -26,3 +26,8 @@ Responsive CSS and accessibility practices (HTML, CSS, JavaScript)
 
 - Code: https://github.com/silviajcn/Responsive-Accessibility/tree/main/LandingReesponsive-Practice
 - Demo: https://agency-creative-site.netlify.app/
+
+## 📂 Ecommerce Yard Sale (Responsive & Accessible & Interactive)
+
+- Code: https://github.com/silviajcn/Responsive-Accessibility/tree/main/Ecommerce
+- Demo: https://lambent-blancmange-8b7f64.netlify.app/

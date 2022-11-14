@@ -20,7 +20,7 @@
 
 ## 💻 Ecommerce Desktop
 
-<img alt="desktop" src="https://lambent-blancmange-8b7f64.netlify.app/" />
+<img alt="desktop" src="https://res.cloudinary.com/silviajcn/image/upload/v1668445435/PRACTICAS/Responsive/ecommerce_jfwf88.png" />
 
 ## 📱 Ecommerce Mobile
 

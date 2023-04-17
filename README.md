@@ -33,5 +33,5 @@ Responsive CSS and accessibility practices (HTML, CSS, JavaScript)
 - Demo: https://lambent-blancmange-8b7f64.netlify.app/
 
 ## 📂 Invisible cities blog (Responsive)
-- Code:
+- Code: https://github.com/silviajcn/Responsive-Accessibility/tree/main/maqueacion-CSS-Platzi
 - Demo: https://invisible-cities-blog.netlify.app/

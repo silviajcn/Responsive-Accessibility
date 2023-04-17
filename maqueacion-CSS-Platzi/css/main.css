@@ -1,0 +1,39 @@
+:root {
+    --color-text: #000000;
+    --primary-color: #27252b;
+    --second-color: #ffffff;
+    --third-color: #b7ae3d;
+    --gray-color: #e6e9ed;
+    --font-family-1: 'Roboto', sans-serif;
+    --font-family-2: 'Roboto Mono', monospace;
+    --font-title: 2em;
+    --font-paragraph: 1.2em;
+    --font-small: 0.9em;
+}
+
+html {
+    font-family: monospace;
+    font-size: var(--font-paragraph);
+}
+
+html.wf-active {
+    font-family: var(--font-family-1);
+}
+
+.home-body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+a {
+    color: var(--color-text);
+}
+
+.icons span {
+    color: var(--second-color);
+}

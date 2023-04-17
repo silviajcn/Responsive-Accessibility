@@ -31,3 +31,7 @@ Responsive CSS and accessibility practices (HTML, CSS, JavaScript)
 
 - Code: https://github.com/silviajcn/Responsive-Accessibility/tree/main/Ecommerce
 - Demo: https://lambent-blancmange-8b7f64.netlify.app/
+
+## 📂 Invisible cities blog (Responsive)
+- Code:
+- Demo: https://invisible-cities-blog.netlify.app/
